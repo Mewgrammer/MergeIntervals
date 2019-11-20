@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddcf9a74-2dfc-4070-b285-c7a30914e446" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/coding/task/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coding/task/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DOCKERFILE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +43,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,7 +87,10 @@
       <updated>1573667769069</updated>
       <workItem from="1573667772969" duration="1444000" />
       <workItem from="1573669273491" duration="12333000" />
-      <workItem from="1573682676634" duration="1987000" />
+      <workItem from="1573682676634" duration="3243000" />
+      <workItem from="1573810896913" duration="45000" />
+      <workItem from="1573810958799" duration="178000" />
+      <workItem from="1574159213210" duration="560000" />
     </task>
     <servers />
   </component>
@@ -97,7 +102,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

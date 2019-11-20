@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: merge-intervals-deployment
+  labels:
+    app: merge-intervals
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: merge-intervals
+  template:
+    metadata:
+      labels:
+        app: merge-intervals
+    spec:
+      containers:
+      - name: merge-intervals
+        image: merge-intervals:latest
+        ports:
+        - containerPort: 80
