@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddcf9a74-2dfc-4070-b285-c7a30914e446" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DOCKERFILE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/coding/task/MergeIntervalsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergeIntervals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MergeIntervals.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/coding/task/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coding/task/MergeIntervals.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +39,7 @@
   </component>
   <component name="ProjectId" id="1TZVnDCOb6xCGeES3x4LyhVw5vF" />
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -58,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MergeIntervalsTests.testParseIntervals">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.task.Main" />
       <module name="MergeIntervals" />
@@ -69,8 +71,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeIntervalsTests.testParseIntervals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MergeIntervals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coding.task" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.task.MergeIntervalsTests" />
+      <option name="METHOD_NAME" value="testParseIntervals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeIntervalsTests.testParseIntervals" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -91,6 +110,7 @@
       <workItem from="1573810896913" duration="45000" />
       <workItem from="1573810958799" duration="178000" />
       <workItem from="1574159213210" duration="560000" />
+      <workItem from="1574323897887" duration="1571000" />
     </task>
     <servers />
   </component>
