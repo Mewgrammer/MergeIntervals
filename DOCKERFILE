@@ -1,5 +1,5 @@
 FROM java:8
-COPY ./src/com/coding/task /app
+COPY ./src /app
 WORKDIR /app
-RUN javac MergeIntervals.java
-CMD ["java", "MergeIntervals"]  
+RUN javac ./com/coding/task/MergeIntervals.java ./com/coding/task/Interval.java
+CMD ["java", "com.coding.task.MergeIntervals"]  

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddcf9a74-2dfc-4070-b285-c7a30914e446" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/coding/task/MergeIntervalsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/coding/task/Interval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MergeIntervals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MergeIntervals.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCKERFILE" beforeDir="false" afterPath="$PROJECT_DIR$/DOCKERFILE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/coding/task/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coding/task/MergeIntervals.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1573810896913" duration="45000" />
       <workItem from="1573810958799" duration="178000" />
       <workItem from="1574159213210" duration="560000" />
-      <workItem from="1574323897887" duration="1571000" />
+      <workItem from="1574323897887" duration="3884000" />
     </task>
     <servers />
   </component>
