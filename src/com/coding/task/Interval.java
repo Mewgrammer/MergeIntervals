@@ -4,7 +4,7 @@ package com.coding.task;
 /**
  * Interval Class.
  */
-public class Interval {
+class Interval {
     private int start;
     private int end;
 

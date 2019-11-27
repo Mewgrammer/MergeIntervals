@@ -38,7 +38,7 @@ public class MergeIntervals {
      * Expected string format: [start,end][start,end][start,end]
      * @param serialized string of intervals in expected format
      */
-    public static List<Interval> parseIntervals(String serialized) {
+    static List<Interval> parseIntervals(String serialized) {
         ArrayList<Interval> intervals = new ArrayList<>();
         if(serialized.length() <= 2) return intervals;
         String[] splitStr = serialized.replace("[", "").split("]");
@@ -61,14 +61,22 @@ public class MergeIntervals {
      * memory: O(n)
      * @param intervals array of intervals to merge
      */
-    private static List<Interval> Merge(List<Interval> intervals)
+    static List<Interval> Merge(List<Interval> intervals)
     {
-        if(intervals.size() <= 1)
+        if(intervals.size() <= 1){
             // Return if the array is empty or contains only 1 element
             return intervals;
+        }
         // Order intervals by start value
-        intervals.sort(Comparator.comparingInt(Interval::getStart));
-
+        intervals.sort(Comparator.comparingInt(i -> {
+            if(i.getStart() > i.getEnd()) {
+                // Fix Start/End order if inverted
+                int endVal = i.getStart();
+                i.setStart(i.getEnd());
+                i.setEnd(endVal);
+            }
+            return i.getStart();
+        }));
         Stack<Interval> mergedIntervals = new Stack<>();
         mergedIntervals.push(intervals.get(0));
 
@@ -89,4 +97,5 @@ public class MergeIntervals {
         }
         return new ArrayList<>(mergedIntervals);
     }
+
 }
