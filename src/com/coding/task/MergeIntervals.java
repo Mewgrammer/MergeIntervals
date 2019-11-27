@@ -59,7 +59,9 @@ public class MergeIntervals {
      * Merges overlapping intervals
      * run-time: O(n*log(n))
      * memory: O(n)
-     * @param intervals array of intervals to merge
+     * @param intervals List of intervals to merge
+     * @return mergedIntervals List of merged intervals
+     * @throws NullPointerException if the list or a Element within the list is null
      */
     static List<Interval> Merge(List<Interval> intervals)
     {
