@@ -83,6 +83,34 @@ class MergeIntervalsTests {
     }
 
     @Test
+    void testMergeIntervalsSingleInterval() {
+        ArrayList<Interval> intervals = new ArrayList<Interval>() {
+            {
+                add(new Interval(1, 2));     // 0 Interval
+            }
+        };
+        List<Interval> mergedIntervals = MergeIntervals.Merge(intervals);
+        Assert.assertEquals(1, mergedIntervals.size());
+        Assert.assertEquals(1, mergedIntervals.get(0).getStart());
+        Assert.assertEquals(2, mergedIntervals.get(0).getEnd());
+
+    }
+
+    @Test
+    void testMergeIntervalsEqualIntervals() {
+        ArrayList<Interval> intervals = new ArrayList<Interval>() {
+            {
+                add(new Interval(1, 2));     // 0 Interval
+                add(new Interval(1, 2));     // Overlapping Start }
+            }
+        };
+        List<Interval> mergedIntervals = MergeIntervals.Merge(intervals);
+        Assert.assertEquals(1, mergedIntervals.size());
+        Assert.assertEquals(1, mergedIntervals.get(0).getStart());
+        Assert.assertEquals(2, mergedIntervals.get(0).getEnd());
+    }
+
+    @Test
     void testMergeIntervalsInvertedValues() {
         ArrayList<Interval> intervals = new ArrayList<Interval>() {
             {

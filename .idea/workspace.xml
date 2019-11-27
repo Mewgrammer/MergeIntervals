@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ddcf9a74-2dfc-4070-b285-c7a30914e446" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/coding/task/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coding/task/MergeIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/coding/task/MergeIntervalsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coding/task/MergeIntervalsTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MergeIntervalsTests.testMergeIntervalsValues">
+  <component name="RunManager" selected="JUnit.MergeIntervalsTests.testMergeIntervalsEqualIntervals">
     <configuration name="MergeIntervalsTests.testMergeIntervalsEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MergeIntervals" />
       <extension name="coverage">
@@ -75,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervalsTests.testMergeIntervalsHappyFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeIntervalsTests.testMergeIntervalsEqualIntervals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MergeIntervals" />
       <extension name="coverage">
         <pattern>
@@ -85,7 +85,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.coding.task" />
       <option name="MAIN_CLASS_NAME" value="com.coding.task.MergeIntervalsTests" />
-      <option name="METHOD_NAME" value="testMergeIntervalsHappyFlow" />
+      <option name="METHOD_NAME" value="testMergeIntervalsEqualIntervals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervalsTests.testMergeIntervalsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeIntervalsTests.testMergeIntervalsSingleInterval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MergeIntervals" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +117,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.coding.task" />
       <option name="MAIN_CLASS_NAME" value="com.coding.task.MergeIntervalsTests" />
-      <option name="METHOD_NAME" value="testMergeIntervalsNull" />
+      <option name="METHOD_NAME" value="testMergeIntervalsSingleInterval" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeIntervalsTests.testMergeIntervalsEqualIntervals" />
+        <item itemvalue="JUnit.MergeIntervalsTests.testMergeIntervalsSingleInterval" />
         <item itemvalue="JUnit.MergeIntervalsTests.testMergeIntervalsValues" />
         <item itemvalue="JUnit.MergeIntervalsTests.testMergeIntervalsInvertedValues" />
         <item itemvalue="JUnit.MergeIntervalsTests.testMergeIntervalsEmptyList" />
-        <item itemvalue="JUnit.MergeIntervalsTests.testMergeIntervalsNull" />
-        <item itemvalue="JUnit.MergeIntervalsTests.testMergeIntervalsHappyFlow" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +166,7 @@
       <workItem from="1573810958799" duration="178000" />
       <workItem from="1574159213210" duration="560000" />
       <workItem from="1574323897887" duration="3884000" />
-      <workItem from="1574853152957" duration="3080000" />
+      <workItem from="1574853152957" duration="3268000" />
     </task>
     <servers />
   </component>
